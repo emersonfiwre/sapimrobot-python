@@ -1,0 +1,38 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["oi","oie", "oii", "oiii", "oiiii","olá", "ola","öia", "tudo bem", "boa noite", "bom dia", "como vai voce", "como vai você", "voce esta bem", "você está bem","como vai", "eai", "saudacoes", "saudades", "opa", "tranquilo"],
+      "responses": ["Olá, sou Sapim!", "Eu estou Online ;), como posso ajudar ?", "Olá, posso ajudar em algo?"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["tchau", "ate mais tarde", "até mais tarde","adeus", "estou saindo", "saindo", "sair", "tenha um bom dia", "bye", "falou", "flw", "ate mais", "até mais", "valeu", "tamo junto", "tmj"],
+      "responses": ["Nunca é um adeus :(, sim um até logo", "Falo mais com você depois!", "Tchau Tchau :)!", "Goodbye!"],
+      "context_set": ""
+    },
+    {"tag": "stocks",
+      "patterns": ["Quais minhas acoes", "Quais minhas ações", "como está minhas ações", "como esta minhas acoes", "minhas funcionalidades", "acoes", "ações", "funcionalidades", "habilidades", "habilidade"],
+      "responses": ["Algumas das minhas funcionalidades é responder a você ;)", "Eu sou um robo, meu nome é Sapim, tipo a minha prima Alexia"],
+      "context_set": ""
+    },
+    {"tag": "age",
+      "patterns": ["quantos anos", "qual sua idade", "idade", "criacao", "criação", "data de criacao", "data de criação", "ano de criacao", "ano de criação"],
+      "responses": ["Eu tenho apenas alguns meses, estou bem novinho e aprendendo", "Eu fui criado a alguns meses pelo grupo de projeto da Uninove"],
+      "context_set": ""
+    },
+    {"tag": "shop",
+      "patterns": ["você gosta de compras", "voce gosta de compras","comprar", "compra", "gosta de fazer", "recomendacao", "recomendação", "vender", "pagar", "oque comprar", "seus produtos", "produtos", "produto"],
+      "responses": ["Bom, não me julgue mas eu adoro fazer compras ~", "Eu gosto muito de compras, porém não possuo recomendações :("],
+      "con,text_set": ""
+    },
+    {"tag": "hours",
+      "patterns": ["quando voces estao funcionando", "quando você estão funcionando","atendimento", "abertos", "horas", "abrir", "funcionando","atendendo"],
+      "responses": ["Eu estou sempre online e roteando 24h por 48h ;)"],
+      "context_set": ""
+    },
+    {"tag": "jokes",
+      "patterns": ["me conta uma piada", "piada", "me conta uma historia", "me conta uma história", "historia", "história","joke", "alguma coisa engracada", "alguma coisa engraçada", "engraçado", "engracado","engraçada", "engracada"],
+      "responses": ["Oque o brioche disse para torradinha ? ... Quem é você na fila do pão", "Como deixar alguém curioso?... Eu conto amanhã", "Qual é a fórmula da água benta?... H Deus O!", "O que o pato disse para a pata?... Vem Quá!", "Porque o menino estava falando ao telefone deitado?... Para não cair a ligação"],
+      "context_set": ""
+    }
+  ]
+  }
